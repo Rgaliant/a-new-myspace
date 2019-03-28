@@ -134,6 +134,7 @@ class NavbarMe extends React.Component {
             
             color: "white",
           }}
+          href="/friends"
           >
           Friends |
           </Nav.Link>

@@ -8,6 +8,8 @@ import Login from './components/Login'
 import Register from './components/Register'
 import NoMatch from './components/NoMatch'
 import FetchUser from "./components/FetchUser"
+import ProtectedRoute from './components/ProtectedRoute';
+import MyFriends from './components/MyFriends';
 
 const App = () => (
   <>
@@ -26,6 +28,10 @@ const App = () => (
             render={ () => <UserProfile /> }
           />
           <Route 
+            exact path='/friends' 
+            render={ () => <MyFriends /> }
+          />
+          <Route 
             exact path="/login" 
             component={Login} 
           />
@@ -36,6 +42,7 @@ const App = () => (
           <Route 
             component={NoMatch} 
           />
+          
         </Switch>
       </Container>
     </FetchUser>
