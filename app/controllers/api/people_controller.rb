@@ -5,6 +5,11 @@ class Api::PeopleController < ApplicationController
     render json: User.random_friend(current_user.friends)
   end
 
+  def show
+    @person = Person.find(params[:id])
+    render json: @person
+  end
+
   def update
     current_user.friends << params[:id].to_i
     current_user.save

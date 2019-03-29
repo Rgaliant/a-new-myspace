@@ -10,6 +10,7 @@ import NoMatch from './components/NoMatch'
 import FetchUser from "./components/FetchUser"
 import ProtectedRoute from './components/ProtectedRoute';
 import MyFriends from './components/MyFriends';
+import PersonProfile from './components/PersonProfile'
 
 const App = () => (
   <>
@@ -30,6 +31,10 @@ const App = () => (
           <Route 
             exact path='/friends' 
             render={ () => <MyFriends /> }
+          />
+          <Route
+            exact path='/people/:id'
+            render={ () => <PersonProfile /> }
           />
           <Route 
             exact path="/login" 
