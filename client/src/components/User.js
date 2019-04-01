@@ -249,34 +249,34 @@ const User = () => (
               <tbody>
                 <tr>
                   <td>
-                    <a href="/"><p style={{textAlign: "center"}}>Jeff</p></a>                    <Image src="https://loremflickr.com/120/140/guy" />
+                    <a href="/people/1"><p style={{textAlign: "center"}}>Jeff</p></a>                    <Image src="https://loremflickr.com/120/140/guy" />
                   </td>
                   <td>
-                    <a href="/"><p style={{textAlign: "center"}}>Harry</p></a>
+                    <a href="/people/2"><p style={{textAlign: "center"}}>Harry</p></a>
                     <Image src="https://loremflickr.com/120/140/dude" />
                   </td>
                   <td>
-                    <a href="/"><p style={{textAlign: "center"}}>Sally</p></a>
+                    <a href="/people/3"><p style={{textAlign: "center"}}>Sally</p></a>
                     <Image src="https://loremflickr.com/120/140/lady" />
                   </td>
                   <td>
-                    <a href="/"><p style={{textAlign: "center"}}>Betty</p></a>
+                    <a href="/people/4"><p style={{textAlign: "center"}}>Betty</p></a>
                     <Image src="https://loremflickr.com/120/140/old,lady" />
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="/"><p style={{textAlign: "center"}}>Tim</p></a>                   <Image src="https://loremflickr.com/120/140/guys" />
+                    <a href="/people/5"><p style={{textAlign: "center"}}>Tim</p></a>                   <Image src="https://loremflickr.com/120/140/guys" />
                   </td>
                   <td>
-                    <a href="/"><p style={{textAlign: "center"}}>Zack</p></a>                    <Image src="https://loremflickr.com/120/140/dudes" />
+                    <a href="/people/6"><p style={{textAlign: "center"}}>Zack</p></a>                    <Image src="https://loremflickr.com/120/140/dudes" />
                   </td>
                   <td>
-                    <a href="/"><p style={{textAlign: "center"}}>Alice</p></a>
+                    <a href="/people/7"><p style={{textAlign: "center"}}>Alice</p></a>
                     <Image src="https://loremflickr.com/120/140/ladys" />
                   </td>
                   <td>
-                  <a href="/"><p style={{textAlign: "center"}}>Barb</p></a>
+                  <a href="/people/8"><p style={{textAlign: "center"}}>Barb</p></a>
                     <Image src="https://loremflickr.com/120/140/old,ladys" />
                   </td>
                 </tr>

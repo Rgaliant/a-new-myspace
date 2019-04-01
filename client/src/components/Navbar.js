@@ -114,6 +114,7 @@ class NavbarMe extends React.Component {
             
             color: "white",
           }}
+          href="https://gmail.com"
           >
           Mail |
           </Nav.Link>
@@ -124,6 +125,7 @@ class NavbarMe extends React.Component {
             
             color: "white",
           }}
+          href="/user/profile"
           >
           Profile |
           </Nav.Link>
@@ -145,6 +147,7 @@ class NavbarMe extends React.Component {
             
             color: "white",
           }}
+          href="https://spotify.com"
           >
           Music 
           </Nav.Link>
@@ -155,6 +158,7 @@ class NavbarMe extends React.Component {
             
             color: "white",
           }}
+          href="https://youtube.com"
           >
           | Video |
           </Nav.Link>
@@ -165,6 +169,7 @@ class NavbarMe extends React.Component {
             
             color: "white",
           }}
+          href="https://ign.com"
           >
           Games 
           </Nav.Link>
@@ -175,6 +180,7 @@ class NavbarMe extends React.Component {
             
             color: "white",
           }}
+          href="https://craigslist.com"
           >
           | Events |
           </Nav.Link>

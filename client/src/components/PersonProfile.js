@@ -246,7 +246,7 @@ class PersonProfile extends React.Component {
             <Table variant="sm">
               <thead style={{ backgroundColor: "#FFDF9E", color: "#FF971A", }}>
                 <tr>
-                  <th colspan="4">
+                  <th colSpan="4">
                     {username}'s Friend Space
                   </th>
 

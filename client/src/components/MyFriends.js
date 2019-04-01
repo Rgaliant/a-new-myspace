@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import { Card, Divider, Image, } from 'semantic-ui-react';
+import { Link } from 'react-router-dom'
+import { Image, Col, Row, Table } from 'react-bootstrap'
 
 class MyFriends extends React.Component {
   state = { people: [], };
@@ -13,19 +14,33 @@ class MyFriends extends React.Component {
   render() {
     const { people, } = this.state;
     return (
-      <Card.Group itemsPerRow={4}>
-        { people.map( person =>
-          <Card key={person.id}>
-            <Image src={ person.avatar }/>
-            <Card.Content>
-              <Divider />
-              <Card.Header>
-                { person.username }
-              </Card.Header>
-            </Card.Content>
-          </Card>
-        )}
-      </Card.Group>
+      <>
+      <br />
+      <h2>Browse Users</h2>
+      <div style={{ border: "1px solid blue" }}>
+      <div style={{ color: "white", background: "#6A94B6", fontSize: "20px", height: "1.5em", padding: "5px" }}><strong>Search Results</strong></div>
+        <Col>
+          <Row>
+            
+              
+                { people.map( person =>
+                  <>
+                    <div key={person.id} style={{ padding: "20px" }}>
+                    <Link to={`/people/${person.id}`}>{ person.username }</Link>
+                    <br />
+                      <Image src={'https://loremflickr.com/120/140/people?' + Math.random()} />
+                    <br />
+                   <span>📳</span><span style={{ color: "green" }}>online now</span>
+                  </div>
+                  </>
+                )}
+                
+    
+            <br />
+            </Row>
+          </Col>
+        </div>
+        </>
     )
   }
 }
